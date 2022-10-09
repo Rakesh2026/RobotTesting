@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="authentication.VerifyOTP">
+        <methods>
+          <include name="mIKO_AUTH_016_VerifyOTPTests"/>
+          <include name="mIKO_AUTH_019_VerifyOTPTests"/>
+          <include name="mIKO_AUTH_024_VerifyOTPTests"/>
+          <include name="mIKO_AUTH_027_VerifyOTPTests"/>
+          <include name="mIKO_AUTH_022_VerifyOTPTests"/>
+          <include name="bcConfiguration"/>
+          <include name="mIKO_AUTH_020_VerifyOTPTests"/>
+          <include name="mIKO_AUTH_026_VerifyOTPTests"/>
+          <include name="aSConfiguration"/>
+          <include name="bSConfiguration"/>
+          <include name="mIKO_AUTH_018_VerifyOTPTests"/>
+          <include name="mIKO_AUTH_017_VerifyOTPTests"/>
+          <include name="mIKO_AUTH_021_VerifyOTPTests"/>
+          <include name="mIKO_AUTH_025_VerifyOTPTests"/>
+        </methods>
+      </class> <!-- authentication.VerifyOTP -->
+      <class name="languages.Languages">
+        <methods>
+          <include name="mIKO_LANG_002_LanguagesTests"/>
+          <include name="bcConfiguration"/>
+          <include name="mIKO_LANG_003_LanguagesTests"/>
+          <include name="aSConfiguration"/>
+          <include name="mIKO_LANG_001_LanguagesTests"/>
+          <include name="bSConfiguration"/>
+        </methods>
+      </class> <!-- languages.Languages -->
+      <class name="miko.UnlinkBot">
+        <methods>
+          <include name="mIKO_MIKO_034_UnlinkBotTests"/>
+          <include name="mIKO_MIKO_030_UnlinkBotTests"/>
+          <include name="aSConfiguration"/>
+          <include name="acConfiguration1"/>
+          <include name="mIKO_MIKO_032_UnlinkBotTests"/>
+          <include name="mIKO_MIKO_026_UnlinkBotTests"/>
+          <include name="bSConfiguration"/>
+          <include name="mIKO_MIKO_027_UnlinkBotTests"/>
+          <include name="bcConfiguration"/>
+          <include name="mIKO_MIKO_024_UnlinkBotTests"/>
+          <include name="mIKO_MIKO_029_UnlinkBotTests"/>
+          <include name="mIKO_MIKO_031_UnlinkBotTests"/>
+          <include name="mIKO_MIKO_028_UnlinkBotTests"/>
+          <include name="bcConfiguration1"/>
+          <include name="mIKO_MIKO_025_UnlinkBotTests"/>
+          <include name="mIKO_MIKO_033_UnlinkBotTests"/>
+        </methods>
+      </class> <!-- miko.UnlinkBot -->
+      <class name="config.MaxPageHomeCarousel">
+        <methods>
+          <include name="mIKO_CONFIG_022_MaxPageHomeCarouselTests"/>
+          <include name="mIKO_CONFIG_020_MaxPageHomeCarouselTests"/>
+          <include name="bcConfiguration"/>
+          <include name="mIKO_CONFIG_021_MaxPageHomeCarouselTests"/>
+          <include name="aSConfiguration"/>
+          <include name="mIKO_CONFIG_023_MaxPageHomeCarouselTests"/>
+          <include name="mIKO_CONFIG_024_MaxPageHomeCarouselTests"/>
+          <include name="bSConfiguration"/>
+        </methods>
+      </class> <!-- config.MaxPageHomeCarousel -->
+      <class name="miko.GetBotDetail">
+        <methods>
+          <include name="mIKO_MIKO_003_GetBotDetailTests"/>
+          <include name="mIKO_MIKO_006_GetBotDetailTests"/>
+          <include name="mIKO_MIKO_007_GetBotDetailTests"/>
+          <include name="mIKO_MIKO_009_GetBotDetailTests"/>
+          <include name="aSConfiguration"/>
+          <include name="mIKO_MIKO_001_GetBotDetailTests"/>
+          <include name="mIKO_MIKO_004_GetBotDetailTests"/>
+          <include name="bSConfiguration"/>
+          <include name="bcConfiguration"/>
+          <include name="mIKO_MIKO_005_GetBotDetailTests"/>
+          <include name="mIKO_MIKO_008_GetBotDetailTests"/>
+          <include name="mIKO_MIKO_010_GetBotDetailTests"/>
+          <include name="mIKO_MIKO_002_GetBotDetailTests"/>
+        </methods>
+      </class> <!-- miko.GetBotDetail -->
+      <class name="miko.GetlistOfBotPairedWithUser">
+        <methods>
+          <include name="mIKO_MIKO_019_GetlistOfBotPairedWithUserTests"/>
+          <include name="bcConfiguration"/>
+          <include name="bcConfiguration1"/>
+          <include name="mIKO_MIKO_020_GetlistOfBotPairedWithUserTests"/>
+          <include name="acConfiguration1"/>
+          <include name="mIKO_MIKO_023_GetlistOfBotPairedWithUserTests"/>
+          <include name="aSConfiguration"/>
+          <include name="mIKO_MIKO_021_GetlistOfBotPairedWithUserTests"/>
+          <include name="mIKO_MIKO_022_GetlistOfBotPairedWithUserTests"/>
+          <include name="bSConfiguration"/>
+        </methods>
+      </class> <!-- miko.GetlistOfBotPairedWithUser -->
+      <class name="config.UnsubscribeReasons">
+        <methods>
+          <include name="mIKO_CONFIG_026_UnsubscribeReasonsTests"/>
+          <include name="bcConfiguration"/>
+          <include name="aSConfiguration"/>
+          <include name="mIKO_CONFIG_027_UnsubscribeReasonsTests"/>
+          <include name="mIKO_CONFIG_025_UnsubscribeReasonsTests"/>
+          <include name="bSConfiguration"/>
+        </methods>
+      </class> <!-- config.UnsubscribeReasons -->
+      <class name="authentication.Register">
+        <methods>
+          <include name="mIKO_AUTH_044_RegisterTests"/>
+          <include name="mIKO_AUTH_031_RegisterTests"/>
+          <include name="mIKO_AUTH_038_RegisterTests"/>
+          <include name="aSConfiguration"/>
+          <include name="mIKO_AUTH_035_RegisterTests"/>
+          <include name="mIKO_AUTH_028_RegisterTests"/>
+          <include name="mIKO_AUTH_040_RegisterTests"/>
+          <include name="mIKO_AUTH_049_RegisterTests"/>
+          <include name="mIKO_AUTH_036_RegisterTests"/>
+          <include name="mIKO_AUTH_047_RegisterTests"/>
+          <include name="mIKO_AUTH_042_RegisterTests"/>
+          <include name="mIKO_AUTH_034_RegisterTests"/>
+          <include name="mIKO_AUTH_045_RegisterTests"/>
+          <include name="mIKO_AUTH_030_RegisterTests"/>
+          <include name="mIKO_AUTH_039_RegisterTests"/>
+          <include name="mIKO_AUTH_032_RegisterTests"/>
+          <include name="mIKO_AUTH_037_RegisterTests"/>
+          <include name="bSConfiguration"/>
+          <include name="mIKO_AUTH_041_RegisterTests"/>
+          <include name="bcConfiguration"/>
+          <include name="mIKO_AUTH_029_RegisterTests"/>
+          <include name="mIKO_AUTH_033_RegisterTests"/>
+          <include name="mIKO_AUTH_046_RegisterTests"/>
+          <include name="mIKO_AUTH_043_RegisterTests"/>
+          <include name="mIKO_AUTH_048_RegisterTests"/>
+        </methods>
+      </class> <!-- authentication.Register -->
+      <class name="miko.PairWithBot">
+        <methods>
+          <include name="mIKO_MIKO_011_PairWithBotTests"/>
+          <include name="mIKO_MIKO_018_PairWithBotTests"/>
+          <include name="bcConfiguration"/>
+          <include name="mIKO_MIKO_015_PairWithBotTests"/>
+          <include name="mIKO_MIKO_016_PairWithBotTests"/>
+          <include name="aSConfiguration"/>
+          <include name="mIKO_MIKO_012_PairWithBotTests"/>
+          <include name="mIKO_MIKO_017_PairWithBotTests"/>
+          <include name="mIKO_MIKO_014_PairWithBotTests"/>
+          <include name="mIKO_MIKO_013_PairWithBotTests"/>
+          <include name="bSConfiguration"/>
+        </methods>
+      </class> <!-- miko.PairWithBot -->
+      <class name="languages.GetKeyValueOfALanguage">
+        <methods>
+          <include name="mIKO_LANG_005_GetKeyValueOfALanguageTests"/>
+          <include name="mIKO_LANG_004_GetKeyValueOfALanguageTests"/>
+          <include name="mIKO_LANG_006_GetKeyValueOfALanguageTests"/>
+          <include name="mIKO_LANG_008_GetKeyValueOfALanguageTests"/>
+          <include name="bcConfiguration"/>
+          <include name="mIKO_LANG_007_GetKeyValueOfALanguageTests"/>
+          <include name="aSConfiguration"/>
+          <include name="bSConfiguration"/>
+        </methods>
+      </class> <!-- languages.GetKeyValueOfALanguage -->
+      <class name="config.MaxPlanHomePageBanner">
+        <methods>
+          <include name="mIKO_CONFIG_031_MaxPlanHomePageBannerTests"/>
+          <include name="mIKO_CONFIG_030_MaxPlanHomePageBannerTests"/>
+          <include name="mIKO_CONFIG_032_MaxPlanHomePageBannerTests"/>
+          <include name="mIKO_CONFIG_034_MaxPlanHomePageBannerTests"/>
+          <include name="bcConfiguration"/>
+          <include name="aSConfiguration"/>
+          <include name="bSConfiguration"/>
+        </methods>
+      </class> <!-- config.MaxPlanHomePageBanner -->
+      <class name="config.DashboardHome">
+        <methods>
+          <include name="bcConfiguration"/>
+          <include name="mIKO_CONFIG_015_DashboardHomeTests"/>
+          <include name="mIKO_CONFIG_019_DashboardHomeTests"/>
+          <include name="mIKO_CONFIG_017_DashboardHomeTests"/>
+          <include name="mIKO_CONFIG_016_DashboardHomeTests"/>
+          <include name="aSConfiguration"/>
+          <include name="bSConfiguration"/>
+        </methods>
+      </class> <!-- config.DashboardHome -->
+      <class name="profile.GetProfileForCustomer">
+        <methods>
+          <include name="mIKO_PROFILE_003_GetProfileForCustomerTests"/>
+          <include name="mIKO_PROFILE_004_GetProfileForCustomerTests"/>
+          <include name="mIKO_PROFILE_005_GetProfileForCustomerTests"/>
+          <include name="aSConfiguration"/>
+          <include name="bcConfiguration"/>
+          <include name="mIKO_PROFILE_001_GetProfileForCustomerTests"/>
+          <include name="mIKO_PROFILE_002_GetProfileForCustomerTests"/>
+          <include name="bSConfiguration"/>
+        </methods>
+      </class> <!-- profile.GetProfileForCustomer -->
+      <class name="config.KeysConfig">
+        <methods>
+          <include name="mIKO_CONFIG_011_KeysConfigTests"/>
+          <include name="mIKO_CONFIG_012_KeysConfigTests"/>
+          <include name="bcConfiguration"/>
+          <include name="aSConfiguration"/>
+          <include name="mIKO_CONFIG_010_KeysConfigTests"/>
+          <include name="bSConfiguration"/>
+        </methods>
+      </class> <!-- config.KeysConfig -->
+      <class name="miko.SwitchBot">
+        <methods>
+          <include name="mIKO_MIKO_033_SwitchBotTests"/>
+          <include name="mIKO_MIKO_034_SwitchBotTests"/>
+          <include name="bcConfiguration1"/>
+          <include name="mIKO_MIKO_030_SwitchBotTests"/>
+          <include name="mIKO_MIKO_027_SwitchBotTests"/>
+          <include name="aSConfiguration"/>
+          <include name="mIKO_MIKO_031_SwitchBotTests"/>
+          <include name="mIKO_MIKO_025_SwitchBotTests"/>
+          <include name="bSConfiguration"/>
+          <include name="bcConfiguration"/>
+          <include name="mIKO_MIKO_024_SwitchBotTests"/>
+          <include name="mIKO_MIKO_028_SwitchBotTests"/>
+          <include name="mIKO_MIKO_026_SwitchBotTests"/>
+          <include name="mIKO_MIKO_029_SwitchBotTests"/>
+          <include name="acConfiguration1"/>
+          <include name="mIKO_MIKO_032_SwitchBotTests"/>
+        </methods>
+      </class> <!-- miko.SwitchBot -->
+      <class name="max.GetMaxHomePage">
+        <methods>
+          <include name="mIKO_MAX_010_GetMaxHomePageTests"/>
+          <include name="mIKO_MAX_005_GetMaxHomePageTests"/>
+          <include name="mIKO_MAX_011_GetMaxHomePageTests"/>
+          <include name="mIKO_MAX_004_GetProfileForCustomerTests"/>
+          <include name="aSConfiguration"/>
+          <include name="mIKO_MAX_003_GetMaxHomePageTests"/>
+          <include name="mIKO_MAX_006_GetMaxHomePageTests"/>
+          <include name="bcConfiguration"/>
+          <include name="bSConfiguration"/>
+          <include name="mIKO_MAX_008_GetMaxHomePageTests"/>
+          <include name="mIKO_MAX_012_GetMaxHomePageTests"/>
+          <include name="mIKO_MAX_001_GetMaxHomePageTests"/>
+          <include name="mIKO_MAX_002_GetMaxHomePageTests"/>
+          <include name="mIKO_MAX_013_GetMaxHomePageTests"/>
+        </methods>
+      </class> <!-- max.GetMaxHomePage -->
+      <class name="max.GetListOfMaxSubscriptions">
+        <methods>
+          <include name="mIKO_MAX_016_GetListOfMaxSubscriptionsTests"/>
+          <include name="mIKO_MAX_014_GetListOfMaxSubscriptionsTests"/>
+          <include name="mIKO_MAX_021_GetListOfMaxSubscriptionsTests"/>
+          <include name="bcConfiguration"/>
+          <include name="aSConfiguration"/>
+          <include name="mIKO_MAX_025_GetListOfMaxSubscriptionsTests"/>
+          <include name="bSConfiguration"/>
+          <include name="mIKO_MAX_024_GetListOfMaxSubscriptionsTests"/>
+          <include name="mIKO_MAX_015_GetListOfMaxSubscriptionsTests"/>
+          <include name="mIKO_MAX_026_GetMaxHomePageTests"/>
+          <include name="mIKO_MAX_022_GetListOfMaxSubscriptionsTests"/>
+          <include name="mIKO_MAX_017_GetListOfMaxSubscriptionsTests"/>
+          <include name="mIKO_MAX_023_GetMaxHomePageTests"/>
+          <include name="mIKO_MAX_020_GetListOfMaxSubscriptionsTests"/>
+        </methods>
+      </class> <!-- max.GetListOfMaxSubscriptions -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

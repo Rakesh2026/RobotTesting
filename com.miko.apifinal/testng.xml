@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="profile.GetProfileForCustomer"/>
+      <class name="config.MaxPageHomeCarousel"/>
+      <class name="miko.GetBotDetail"/>
+      <class name="config.UnsubscribeReasons"/>
+      <class name="miko.PairWithBot"/>
+      <class name="languages.GetKeyValueOfALanguage"/>
+      <class name="languages.Languages"/>
+      <class name="authentication.LoginOrderId"/>
+      <class name="config.DashboardHome"/>
+      <class name="authentication.Register"/>
+      <class name="config.GetAllConfigs"/>
+      <class name="config.MaxPlanHomePageBanner"/>
+      <class name="max.GetMaxHomePage"/>
+      <class name="miko.SwitchBot"/>
+      <class name="config.KeysConfig"/>
+      <class name="max.GetListOfMaxSubscriptions"/>
+      <class name="miko.UnlinkBot"/>
+      <class name="miko.GetlistOfBotPairedWithUser"/>
+      <class name="authentication.VerifyOTP"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
